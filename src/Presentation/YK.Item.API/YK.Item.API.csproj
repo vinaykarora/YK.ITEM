@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\Practice\gitrepo\YK.ITEM\YK.Item\Presentation\YK.Item.API\YK.Item.API.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\YK.Item.API.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
