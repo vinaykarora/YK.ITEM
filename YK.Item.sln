@@ -9,18 +9,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{50481891-1E7A-4D33-94BB-9ED9DF036522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.Item.Domain", "Core\YK.Item.Domain\YK.Item.Domain.csproj", "{8D338C13-BD4A-4CF7-B920-BED6598DA75C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YK.Item.Domain", "src\Core\YK.Item.Domain\YK.Item.Domain.csproj", "{8D338C13-BD4A-4CF7-B920-BED6598DA75C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.Item.Application", "Core\YK.Item.Application\YK.Item.Application.csproj", "{B6247926-2550-4331-BE42-63AA0AC98D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YK.Item.Application", "src\Core\YK.Item.Application\YK.Item.Application.csproj", "{B6247926-2550-4331-BE42-63AA0AC98D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.Item.Persistence", "Infrastructure\YK.Item.Persistence\YK.Item.Persistence.csproj", "{2A60DC25-7861-4A2C-BC46-FA2C425D5D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YK.Item.Persistence", "src\Infrastructure\YK.Item.Persistence\YK.Item.Persistence.csproj", "{2A60DC25-7861-4A2C-BC46-FA2C425D5D18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.Item.API", "Presentation\YK.Item.API\YK.Item.API.csproj", "{9D381287-9E6D-4914-B2B7-5CFA35726985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YK.Item.API", "src\Presentation\YK.Item.API\YK.Item.API.csproj", "{9D381287-9E6D-4914-B2B7-5CFA35726985}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E54DF5D8-2BBA-4B02-A84E-4206E7FDC672}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D2BC5EA-F338-40B8-BD5D-BBCDC7808DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A0095F8-54FD-47A5-B65C-5EBC0D21D57C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{DD6BF5E8-45EF-4667-AAB6-E0DD7E4EB490} = {3D2BC5EA-F338-40B8-BD5D-BBCDC7808DD2}
+		{EEAFB4FF-4158-4958-B364-36529B93490D} = {3D2BC5EA-F338-40B8-BD5D-BBCDC7808DD2}
+		{50481891-1E7A-4D33-94BB-9ED9DF036522} = {3D2BC5EA-F338-40B8-BD5D-BBCDC7808DD2}
 		{8D338C13-BD4A-4CF7-B920-BED6598DA75C} = {DD6BF5E8-45EF-4667-AAB6-E0DD7E4EB490}
 		{B6247926-2550-4331-BE42-63AA0AC98D27} = {DD6BF5E8-45EF-4667-AAB6-E0DD7E4EB490}
 		{2A60DC25-7861-4A2C-BC46-FA2C425D5D18} = {EEAFB4FF-4158-4958-B364-36529B93490D}
