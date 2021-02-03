@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using YK.Item.Application;
 
 namespace YK.Item.API
 {
@@ -38,7 +39,8 @@ namespace YK.Item.API
             });
             #endregion
 
-            services.AddControllers();
+            services.AddApplication()
+                .AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

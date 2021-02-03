@@ -17,5 +17,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\YK.Item.Application\YK.Item.Application.csproj" />
+  </ItemGroup>
+
 
 </Project>
