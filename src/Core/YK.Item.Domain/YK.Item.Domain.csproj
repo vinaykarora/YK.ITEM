@@ -8,4 +8,8 @@
     <None Include="..\..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\YK.Item.SharedKernel\YK.Item.SharedKernel.csproj" />
+  </ItemGroup>
+
 </Project>
