@@ -13,4 +13,9 @@
     <ProjectReference Include="..\YK.Item.Domain\YK.Item.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Specifications\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
